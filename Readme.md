@@ -1,7 +1,7 @@
 Sada testů na XQR
 =================
 
-Tento skript obsahuje sadu testů, které jsou součástí zadání projektu, doplněné
+Tento skript obsahuje sadu testů, které jsou součástí zadání projektu, doplněnou
 o automatické vyhodnocení výsledků a několik dalších testů.
 
 Spuštění všech testů

@@ -1,1 +1,1 @@
-SELECT book FROM ROOT WHERE (((price > 10)) AND (((price < 42))))
+SELECT book FROM ROOT WHERE price > 5 AND price < 6 OR .taky = 1

@@ -120,9 +120,10 @@ SELECT book FROM ROOT WHERE title LIMIT 1 -- 80
 SELECT book FROM ROOT WHERE title FROM "Lover Birds" -- 80
 
 -- Chyby při přetypování na typ literálu v podmínce
-SELECT book FROM ROOT WHERE title > 5 -- 4
-SELECT book FROM ROOT WHERE publish_date > 2000 -- 4
-SELECT book FROM ROOT WHERE .poradi = 3 -- 4
+SELECT book FROM ROOT WHERE title > 5
+SELECT book FROM ROOT WHERE publish_date > 2000
+SELECT book FROM ROOT WHERE .poradi = 3
+SELECT book FROM ROOT WHERE NOT title > 5
 SELECT jeste_neco FROM ROOT WHERE book CONTAINS "Maeve Ascendant" -- 4
 
 -- Složitější porovnání (s rozšířením LOG)
@@ -156,6 +157,7 @@ SELECT book FROM ROOT WHERE publish_date CONTAINS "-01" (autor CONTAINS "Tim" OR
 
 -- Omezení počtu výsledků
 SELECT title FROM ROOT LIMIT -- 80
+SELECT title FROM ROOT LIMIT abc -- 80
 SELECT title FROM ROOT LIMIT -3 -- 80
 SELECT title FROM ROOT LIMIT 0
 SELECT title FROM ROOT LIMIT 1

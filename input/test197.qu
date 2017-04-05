@@ -1,1 +1,1 @@
-SELECT book FROM vnoreny ORDER BY .poradi DESC LIMIT 10
+SELECT book FROM vnoreny ORDER BY .poradi ASC LIMIT 10

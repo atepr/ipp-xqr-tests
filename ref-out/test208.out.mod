@@ -1,4 +1,4 @@
 <xml>
 
-<knihovna><Ǯ />
+<knihovna><Ø />
       </knihovna></xml>

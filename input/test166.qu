@@ -1,1 +1,1 @@
-SELECT book FROM ROOT WHERE (price > 5 AND price < 6
+SELECT book FROM ROOT WHERE publish_date CONTAINS "-01" AND (autor CONTAINS "Tim" OR autor CONTAINS "Eva")

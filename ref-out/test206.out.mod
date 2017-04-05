@@ -1,4 +1,3 @@
 <xml>
 
-<knihovna><Ø />
-      </knihovna></xml>
+<knihovna /></xml>

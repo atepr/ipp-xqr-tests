@@ -1,1 +1,1 @@
-SELECT book FROM ROOT WHERE .taky < 0
+SELECT book FROM ROOT WHERE NOT(.taky > 0)

@@ -1,1 +1,1 @@
-SELECT book FROM ROOT WHERE autor CONTAINS "Peter" OR genre = "Romance" AND price = "4.96" OR genre = "Fantasy" AND NOT author CONTAINS "Eva" OR price.flag = "Y"
+SELECT book FROM ROOT WHERE NOT NOT (NOT .taky > 0)

@@ -1,1 +1,1 @@
-SELECT title FROM ROOT LIMIT
+SELECT book FROM ROOT WHERE publish_date CONTAINS "-01" (autor CONTAINS "Tim" OR autor CONTAINS "Eva")

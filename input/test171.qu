@@ -1,1 +1,1 @@
-SELECT book FROM ROOT WHERE (autor CONTAINS "Eva") (price < 5) AND
+SELECT book FROM ROOT WHERE (autor CONTAINS "Eva") NOT

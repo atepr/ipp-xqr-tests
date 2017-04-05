@@ -1,1 +1,1 @@
-SELECT obyc FROM divny
+SELECT book FROM vnoreny ORDER BY author.poradi ASC LIMIT 10

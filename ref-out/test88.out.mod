@@ -1,0 +1,19 @@
+<xml>
+
+<knihovna><book id="bk115.2">
+      <author>Galos, Mike</author>
+      <title>Různé formáty čísel</title>
+      <genre>Computer</genre>
+      <price>-25.52</price>
+      <publish_date>2001-04-16</publish_date>
+      <description />
+   </book>
+   <book id="bk115.4">
+      <author>Galos, Mike</author>
+      <title>Různé formáty čísel</title>
+      <genre>Computer</genre>
+      <price>-25</price>
+      <publish_date>2001-04-16</publish_date>
+      <description taky="3" />
+   </book>
+   </knihovna></xml>

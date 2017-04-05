@@ -1,0 +1,1 @@
+SELECT book FROM ROOT WHERE (autor CONTAINS "Tim" OR autor CONTAINS "Eva") AND publish_date CONTAINS "-01"

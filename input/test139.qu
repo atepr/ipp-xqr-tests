@@ -1,0 +1,1 @@
+SELECT book FROM ROOT WHERE OR price < 10

@@ -158,7 +158,7 @@ do
     total=$((total+1))
     expected_code=$(cat "ref-out/test$i.!!!")
     actual_code=$(cat "output/test$i.!!!")
-    echo -en $YELLOW"Test $i "$ENDC
+    echo -en "${YELLOW}Test $i $ENDC"
     if [ "$expected_code" -ne "$actual_code" ]
     then
         echo "- špatný návratový kód (chci $expected_code, vráceno $actual_code)"
@@ -191,7 +191,7 @@ do
     java -jar jexamxml/jexamxml.jar output/test${i}.out.mod ref-out/test${i}.out.mod output/delta.xml xqr_options >/dev/null
     if [ "$?" = "0" ]
     then
-        echo -en $GRAY"ok"
+        echo -en "${GRAY}ok"
         good=$((good+1))
     else
         echo -n "FAIL"

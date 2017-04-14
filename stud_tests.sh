@@ -166,7 +166,7 @@ do
         cat "input/test$i.qu"
         continue
     fi
-    if [ "$i" == "01" ]
+    if [ "$i" = "01" ]
     then
         # Bez kontroly vrácený věci
         echo -e $GRAY"ok"
@@ -189,7 +189,7 @@ do
     cat "ref-out/test${i}.out" | sed "s:<?xml.*?>::" >> ref-out/test${i}.out.mod
     echo "</xml>" >> ref-out/test${i}.out.mod
     java -jar jexamxml/jexamxml.jar output/test${i}.out.mod ref-out/test${i}.out.mod output/delta.xml xqr_options >/dev/null
-    if [ $? == 0 ]
+    if [ "$?" = "0" ]
     then
         echo -en $GRAY"ok"
         good=$((good+1))
